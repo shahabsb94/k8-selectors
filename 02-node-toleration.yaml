@@ -10,7 +10,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
-  toleration:
+  tolerations:
   - key: "hardware"
     operation: "Equal"
     value: "gpu"
